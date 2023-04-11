@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  height: 80px;
+}
+
+.nav-right a {
+  margin-right: 30px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav-right button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid crimson;
+  color: crimson;
+}
+
+/* ====================================Navbar-end================== */
+
+/* ================intro */
+.intro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.intro-left {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-right h1 {
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;  
+  font-weight: 200;
+}
+
+.intro-right p {
+  margin-left: 30px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;  
+}
+
+/* ====================================================who-we are */
+
+.whoWe {
+  height: 70vh;
+  width: 100%;
+  /* display: flex; */
+  padding: 0 50px;
+}
+
+.whoWe h1 {
+  text-align: center;
+  margin:  0 auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 120;  
+}
+
+.who-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 0 150px;
+}
+
+.who-left p {
+  word-spacing: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.who-left button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid crimson;
+  color: crimson;
+}
+
+.who-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  /* padding: 50px; */
+}
+
+.who-container{
+  display: flex;
+}
+
+.who-right .common {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+
+.right-top {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.right-bottom {
+  display: flex;
+}
+
+.right-bottom .common {
+  margin-right: 20px;
+  width: 200px;
+}
+
+.common img {
+  height: 50px;
+  width: 50px;
+}
+
+.common4  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.who-right img {
+  margin-bottom: 10px;
+}
+
+.who-right h3{
+  font-size: 16px;
+  font-weight: 200;
+}
+
+/* =========================================== */
+
+/* ===========================numbers */
+.numbers {
+  margin-bottom: 150px;
+}
+
+.numbers h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.num-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 200px;
+}
+
+.num-left {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 50px;
+}
+
+.num-right {
+  width: 30%;
+}
+
+.num-common {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.num-common .botom-line {
+  height: 2px;
+  width: 100px;
+  background-color: rgb(236, 156, 172);
+  margin: 10px 0;
+}
+
+.num-right img {
+  height: 380px;
+  width: 380px;
+}
+
+/* =============================================================end numbers */
+
+/* ========================footer */
+
+
+.footer-seperator {
+  height: 2px;
+  width: 100%;
+  background-color: blueviolet;
+
+}
+.footer {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  margin-bottom: 40px;
+}
+
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  width: 60%;
+  height: 25vh;
+}
+
+.commmon-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* .footer-right {
+  width: 20vh;
+} */
+
+.fright-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.fright-top img{
+  height: 30px;
+  width: 30px;
+}
+
+.fright-bottom {
+  height: 150px;
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.fright-bottom h3 {
+  margin-bottom: 20px;
+}
+
+form input {
+  margin-bottom: 20px;
+  height: 30px;
+  width: 200px;
+  background-color: rgb(251, 246, 246);
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+
+form button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid crimson;
+  color: crimson;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.fl-common {
+  display: flex;
+  flex-direction: column;
+}
+
+.fl-common a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.fl-common h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* ===========================================================insights-start */
+
+.insights {
+  padding: 100px 100px;
+}
+
+.insights h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.insights span {
+  color: crimson;
+}
+
+.insights .card-top {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card-top img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+} 
+
+
+.card {
+  border:  1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  /* height: 250px; */
+
+}
+/* ==================================================== */
+.services {
+  margin-bottom: 100px;
+}
+
+.services h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.service-container {
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.service-common {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-common h3 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.service-card {
+  height: 250px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.service-card span {
+  color: crimson;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* =========================================================service end */
+
+/* ==========================testimonials */
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.testimonials button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid crimson;
+  color: crimson;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.test-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.top-left {
+  width: 180px;
+  height: 50px;
+  border-right: 2px solid crimson;
+}
+
+.top-right {
+  margin-left: 20px;
+}
+
+h1, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+.test-card {
+  height: 250px;
+  width: 320px;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.test-card img {
+  height: 50px;
+  width: 50px;
+}
+
+.test-card .card-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.test-bottom {
+  width: 60vw;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  margin-bottom: 40px;
+}
+
+
+/* =================================trust */
+
+.trust {
+ height: 75vh;
+}
+
+.trust h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.trust-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 60vw;
+  row-gap: 30px;
+  margin: 0 auto;
+}
+.trust-container img {
+  height: 80px;
+  width: 200px;
+}
+
